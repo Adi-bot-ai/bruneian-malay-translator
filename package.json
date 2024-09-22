@@ -1,15 +1,18 @@
 {
   "name": "pelita-brunei",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "src/functions/index.js",
   "scripts": {
+    "start": "func start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@azure/storage-blob": "^12.24.0"
+    "@azure/functions": "^4.0.0",
+    "@azure/storage-blob": "^12.13.0",
+    "parse-multipart": "^1.0.4"
   }
 }
